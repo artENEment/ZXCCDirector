@@ -1,0 +1,131 @@
+body{
+    margin:50px;
+}
+.front{
+    margin-left:50px;
+    width:800px;
+    height:200x;
+    background-image: linear-gradient(120deg,rgba(0,255,125,60),rgba(125,0,255,60));
+    border-radius: 15px 30px 15px 30px;
+    box-shadow: 2px 4px 10px grey;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:30px;
+    align-items: center;
+    vertical-align: middle;
+    line-height:50px;
+    color:aliceblue;
+    text-overflow: clip;
+    text-shadow: 2px -2px 10px aliceblue,0 2px 10px aliceblue;
+    transition: transform 1s ,box-shadow 1s;
+}
+.front:hover{
+    transform: translateY(-10px);
+    box-shadow: 6px 10px 10px grey;
+}
+.front>button{
+
+    width:350px;
+    height:30px;
+    border-radius: 10px;
+    background-image:linear-gradient(-120deg,wheat,white);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    color:brown;
+    transition:width 2s,height 2s,transform 2s ease-in-out;
+    backface-visibility: hidden;
+    border-color: white;
+}
+.front>button:hover{
+    width:250px;
+    height:50px;
+}
+.front>span{
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+}
+#backend{
+    background-image: linear-gradient(120deg,rgba(0,255,125,60),rgba(125,0,255,60));
+}
+
+
+.front{
+    animation-name: join;
+    animation-duration: 1.5s;
+}
+
+.back{
+    margin-left:50px;
+    width:800px;
+    height:200x;
+    background-image: linear-gradient(120deg,rgba(0,255,125,60),rgba(125,0,255,60));
+    border-radius: 15px 30px 15px 30px;
+    box-shadow: 2px 4px 10px grey;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:30px;
+    align-items: center;
+    vertical-align: middle;
+    line-height:50px;
+    color:aliceblue;
+    text-overflow: clip;
+    text-shadow: 2px -2px 10px aliceblue,0 2px 10px aliceblue;
+    transition: transform 1s ,box-shadow 1s;
+}
+
+.front,.back{
+    position: absolute;
+    backface-visibility: hidden;
+    transition:transform 1s ease-in-out;
+}
+
+.front{
+    transform: rotateY(0deg);
+}
+.back{
+    transform:rotateY(180deg);
+}
+@keyframes join {
+    from{
+        margin-left:1536px;
+    }
+    to{
+        margin-left:50px;
+    }
+} 
+
+
+.clickfront{
+    transform:rotateY(180deg);
+}
+.clickback{
+    transform:rotateY(0deg);
+}
+
+.right{
+    width:300px;
+    height: 156.1px;
+    background-color:rgba(0,255,255,60);
+    margin-left: 900px;
+    margin-top: 0px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 50px;
+    opacity:0;
+    transition: opacity 2s ease-in-out;
+    box-shadow: 4px 8px 10px gray;
+}
+.right>a{
+    color:crimson;
+    font-size:xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*
+.right:hover{
+    opacity:1;
+}
+*/
+button,a:hover{
+    cursor: pointer;
+}

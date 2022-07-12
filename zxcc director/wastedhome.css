@@ -1,0 +1,61 @@
+
+*{
+background-image:linear-gradient(120deg,rgba(249,232,242,90%),rgba(249,232,242,90%));
+}
+#welcome{
+    text-align: center;
+    width: 1280px;
+    height: 100px;
+}
+#tm{
+    width: 1536px;
+}
+#tm>div{
+   
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgba(255,0,255,60%);
+    font-size: 50px;
+    padding-top: 75px;
+}
+#tm1{
+    background-image: linear-gradient(45deg,#FF5722,#FFB800);
+}
+#tm2{
+    background-image: linear-gradient(45deg,#FFB800,yellow);
+}
+#tm3{
+    background-image: linear-gradient(45deg,yellow,#009688);
+}
+#tm4{
+    background-image: linear-gradient(45deg,#009688,#1E9FFF);
+}
+#tm5{
+    background-image: linear-gradient(45deg,#1E9FFF,#FF5722);
+}
+#head--1{
+    background-image: linear-gradient(60deg,#00ffff,rgba(255,0,255,60%));
+    font-size: large;
+}
+#font--1{
+    color:blueviolet;
+    font-size: large;
+}
+#head--2{
+    background-image: linear-gradient(60deg,#00ffff,rgba(255,0,255,60%));
+    font-size: large;
+}
+#font--2{
+    color:blueviolet;
+    font-size: large;
+}
+#head--3{
+    background-image: linear-gradient(60deg,#00ffff,rgba(255,0,255,60%));
+    font-size: large;
+}
+#font--3{
+    color:blueviolet;
+    font-size: large;
+}

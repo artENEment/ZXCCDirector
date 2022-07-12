@@ -1,0 +1,135 @@
+body{
+    padding: 0px;
+    margin:0px;
+    border:0px;
+}
+#btns{
+   margin-left: 150px;
+   margin-top:25px;
+   width:950px;
+   height:250px;
+   float:left;
+   border:none;
+   animation-name: down;
+   animation-duration: 0.75s;
+}
+#btns>button{
+    border:0px;
+    padding: 0px;
+    width:250px;
+    height: 250px;
+    background-image: linear-gradient(225deg,rgb(125,0,125),skyblue);
+    background-color: bisque;
+    float: left;
+    border-radius: 125px;
+    text-align: center;
+    color:aliceblue;
+    font-size:30px;
+    text-shadow:1px 1px 2px white,-1px -1px 2px white;
+    box-shadow: 5px 5px 5px rgb(60,0,125);
+    transition:box-shadow 1s ease-in-out,transform 1s ease-in-out;
+}
+#btns>div{
+    width:100px;
+    height: 250px;
+    float: left;
+}
+#btns>button:hover{
+    box-shadow: 10px 10px 7px rgb(60,0,125);
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+@keyframes down{
+    from{
+        margin-top: -250px;
+    }
+    to{
+        margin-top: 25px;
+    }
+}
+#video{
+    width:850px;
+    height:600px;
+    margin-left: 50px;
+    border-radius: 50px;
+    float:left;
+}
+#rightdirector{
+    width:300px;
+    height:600px;
+    background-color:#393D49;
+    float:left;
+    border-radius: 50px;
+    padding: 0px;
+    margin:0px;
+}
+#top{
+    width:300px;
+    height: 60px;
+    background-color: aliceblue;
+    border-radius: 40px 40px 0px 0px;
+    float: left;
+}
+#list{
+    width:300px;
+    height:480px;
+    float: left;
+}
+#list:hover{
+    cursor:pointer;
+}
+#bottom{
+    width:300px;
+    height:60px;
+    background-color:aliceblue;
+    border-radius: 0px 0px 40px 40px;
+    float: left;
+}
+
+#dots{
+    width:200px;
+    height:60px;
+    float:left;
+}
+#dots>div{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 25px;
+}
+#dot1{
+    background-color: crimson;
+    margin-left: 10px;
+}
+#dot2{
+    background-color: gold;
+    margin-left: 10px;
+}
+#dot3{
+    background-attachment: fixed;
+    margin-left: 10px;
+    background-color: aquamarine;
+}
+#arrow>img{
+    width:60px;
+    height: 60px;
+    margin-left: 8px;
+}
+.listnode{
+    width:300px;
+    height: 40px;
+    margin-left: 20px;
+    color:aliceblue;
+    text-decoration: solid white;
+    line-height: 40px;
+}
+.listnode:active,.listnode:visited{
+    color:aquamarine;
+}
+.listnode:hover{
+    color:aqua;
+}
+#node1{
+    color:aquamarine;
+}

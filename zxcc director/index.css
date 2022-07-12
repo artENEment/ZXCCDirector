@@ -1,0 +1,212 @@
+#mainico{
+    background-image: url(ZXCC\ DIRECTOR.png);
+    background-repeat: no-repeat;
+    background-color:pink;
+    background-size:750px 100px;
+    background-position: center;
+    width: 750px;
+    height: 100px;
+    margin:0px;
+    padding: 0px;
+    overflow:auto;
+    float: left;
+}
+#mainico:hover{
+    background-image: url(ZXCC\ director2.png);
+    cursor: pointer;
+}
+.sidemain1{
+    width:393px;
+    height: 100px;
+    float:left;
+    background-color:rgba(100,20,200,80%);
+    background-image: linear-gradient(90deg,rgba(249,232,242,90%),pink);
+    border-radius: 75px 0px 0px 75px;
+}
+.sidemain2{
+    width:393px;
+    height: 100px;
+    float:left;
+    background-color:rgba(100,20,200,80%);
+    background-image: linear-gradient(270deg,rgba(249,232,242,90%),pink);
+    border-radius: 0px 75px 75px 0px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    justify-content:center;
+    overflow: hidden;
+}
+.sidemain2>img{
+    width:131px;
+    height: 33.3px;
+}
+.sidemain2>img:hover{
+    cursor: pointer;
+}
+#mainhead{
+    width:1536px;
+    height: 100px;
+    padding: auto;
+}
+#mainhead:hover{
+    box-shadow: 30px 30px 5px  rebeccapurple;
+}
+#headlist{
+    background-color:yellowgreen;
+    width: 1536px;
+    height:20.8px;
+}
+#headlist>a{
+    text-decoration: none;
+    height: 20.8px;
+    width: 256px;
+    float:left;
+    text-align: center;
+}
+#headlist>a:hover{
+    background-color:greenyellow;
+    text-decoration:solid;
+}
+#leftdirector{
+    width:256px;
+    height:1000px;
+    float:left;
+    
+}
+.ld1{
+    width:256px;
+    height:500px;
+    background-color:#393D49;
+}
+.ld1,#btn1,#btn2,#btn3,#btn4,#btn5 :hover{
+    cursor: pointer;
+}
+.ld2{
+    width:256px;
+    height:500px;
+    background-color:#393D49;
+    font-size: large;
+    color:aliceblue;
+}
+.ld2>span>a{
+    color:#FF5722;
+}
+.ld2>span{
+    text-align: center;
+}
+#rightwindow{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+#rightwindow>iframe{
+    border:0px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    width: 1260px;
+    height: 1000px;
+    overflow: hidden;
+    position: relative;
+}
+body{
+    padding: 0px;
+    margin:  0px;
+    background-color:rgba(249,232,242,90%);
+}
+.ld1button1{
+    width:256px;
+    height:100px;
+    padding: 0px;
+    border:0px;
+    margin:0px;
+    background-image: linear-gradient(90deg,rgba(249,232,242,90%),#FF5722);
+}
+.ld1button2{
+    width:256px;
+    height:100px;
+    padding: 0px;
+    background-image: linear-gradient(90deg,#FF5722,#FFB800);
+    border:0px;
+    margin:0px;
+}
+.ld1button3{
+    width:256px;
+    height:100px;
+    padding: 0px;
+    border:0px;
+    background-image:linear-gradient(90deg,#ffb800,greenyellow);
+    margin:0px;
+}
+.ld1button4{
+    width:256px;
+    height:100px;
+    padding: 0px;
+    border:0px;
+    background-image:linear-gradient(90deg,greenyellow,skyblue);
+    margin:0px;
+}
+.ld1button5{
+    width:256px;
+    height:100px;
+    padding: 0px;
+    border:0px;
+    background-image: linear-gradient(90deg,skyblue,rgba(249,232,242,90%));
+    margin:0px;
+}
+button:hover{
+    filter:alpha(Opacity=50);-moz-opacity:0.5;opacity: 0.5;
+}
+#headimage{
+    width:100px;
+    height: 100px;
+    margin-left: 78px;
+    border-radius: 50px;
+}
+#headimage:hover{
+    cursor: pointer;
+}
+#threeimage{
+    text-align: center;
+}
+#github{
+    margin-left: 2px;
+    width:60px;
+    height:60px;
+    border-radius:30px;
+}
+#cloud{
+    margin-left: 2px;
+    width:60px;
+    height:60px;
+    border-radius:30px;
+}
+#bilibili{
+    width:60px;
+    height:60px;
+    border-radius:30px;
+}
+.ld2>img{
+    transition:box-shadow 0.5s ease-in-out;
+}
+.ld2>img:hover{
+    box-shadow:2px -2px 5px whitesmoke;
+}
+#threeimage>img{
+    transition: width 1s ease-in-out,height 1s ease-in-out,box-shadow 1s ease-in-out;
+}
+#threeimage>img:hover{
+    width:80px;
+    height:80px;
+    box-shadow:2px -2px 5px whitesmoke,-2px 2px 5px whitesmoke;
+    cursor: pointer;
+}
+#threehref>a:hover{
+    color:aquamarine;
+}
+#Atele:hover{
+    color:aquamarine;
+    cursor: pointer;
+}

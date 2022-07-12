@@ -1,0 +1,62 @@
+body{
+    margin:50px;
+    justify-content: center;
+    display: flex;
+    animation-name: down;
+    animation-duration: 0.75s;
+}
+@keyframes down{
+    from{
+        margin-top:-500px;
+    }
+    to{
+        margin-top:50px;
+    }
+}
+.front{
+    margin:50px;
+    width:400px;
+    height:500px;
+    background-image: linear-gradient(120deg,rgba(0,255,255,60),rgba(255,0,255,60));
+    border-radius: 15px 30px 15px 30px;
+    box-shadow: 2px 4px 10px grey;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:30px;
+    align-items: center;
+    vertical-align: middle;
+    line-height:150px;
+    color:aliceblue;
+    text-overflow: clip;
+    text-shadow: 2px -2px 10px aliceblue,0 2px 10px aliceblue;
+    transition: transform 1s ,box-shadow 1s;
+}
+.front:hover{
+    transform: translateY(-30px);
+    box-shadow: 6px 10px 10px grey;
+}
+.front>button{
+
+    width:350px;
+    height:30px;
+    border-radius: 10px;
+    background-image:linear-gradient(-120deg,wheat,white);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    color:brown;
+    transition:width 2s,height 2s,transform 2s ease-in-out;
+    backface-visibility: hidden;
+    border-color: white;
+}
+.front>button:hover{
+    width:250px;
+    height:50px;
+}
+.front>span{
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+}
+#backend{
+    background-image: linear-gradient(120deg,rgba(0,255,125,60),rgba(125,0,255,60));
+}
